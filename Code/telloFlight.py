@@ -9,7 +9,7 @@ from telloFunctions import *
 drone_in_flight = True
 
 # UI: Allow user to see custom command and other selections
-print('Tello User Interface\nEnter Tello commands listed in SDK 2.0\nAdditional Functions:\n1. Exit\n2. square-dance\n3. go-to-m1')
+print('Tello User Interface\nEnter Tello commands listed in SDK 2.0\nAdditional Functions:\n1. Exit\n2. square-dance\n3. go-to-m1(-m8)\n4. make-circle')
 
 while(drone_in_flight):
     user_command = input('Enter a command: ')
