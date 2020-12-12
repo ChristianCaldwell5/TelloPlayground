@@ -67,3 +67,19 @@ def goToM8():
     drone.mon()
     drone.go(100, 100, 100, 60, 'm8')
     drone.land()
+
+def routeToM1():
+    drone.takeoff()
+    #drone.up(200)
+    drone.go(0,0,0,40,'m1')
+    drone.land()
+
+def trial():
+    drone.takeoff()
+    drone.up(300)
+    drone.forward(200)
+    drone.cw(180)
+    drone.flip('f')
+    drone.forward(150)
+    drone.land()
+    

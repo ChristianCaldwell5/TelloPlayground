@@ -1,0 +1,10 @@
+README.md
+setup.py
+easytello/__init__.py
+easytello/stats.py
+easytello/tello.py
+easytello.egg-info/PKG-INFO
+easytello.egg-info/SOURCES.txt
+easytello.egg-info/dependency_links.txt
+easytello.egg-info/requires.txt
+easytello.egg-info/top_level.txt

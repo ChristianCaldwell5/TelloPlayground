@@ -3,8 +3,6 @@ from easyTello.easytello import tello
 # import custom action functions
 from telloFunctions import *
 
-# initialize drone object
-# drone = tello.Tello()
 # while True, keep accepting user input for Tello commands
 drone_in_flight = True
 
@@ -22,8 +20,26 @@ while(drone_in_flight):
         squareDance()
     elif(user_command == 'go-to-m1'):
         goToM1()
+    elif(user_command == 'go-to-m2'):
+        goToM2()
+    elif(user_command == 'go-to-m3'):
+        goToM3()
+    elif(user_command == 'go-to-m4'):
+        goToM4()
+    elif(user_command == 'go-to-m5'):
+        goToM5()
+    elif(user_command == 'go-to-m6'):
+        goToM6()
+    elif(user_command == 'go-to-m7'):
+        goToM7()
+    elif(user_command == 'go-to-m8'):
+        goToM8()
+    elif(user_command == 'route-to-m1'):
+        routeToM1()
     elif(user_command == 'make-circle'):
         makeCircle()
+    elif(user_command == 'trial'):
+        trial()
     # SDK command
     else:
         drone.send_command(user_command, True)
